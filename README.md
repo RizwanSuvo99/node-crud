@@ -48,7 +48,7 @@ Basic Crud/
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repo-url> "Basic Crud"
+   git clone https://github.com/RizwanSuvo99/node-crud.git
    cd "Basic Crud"
    ```
 
@@ -69,7 +69,7 @@ The backend API is located in `src/api/server.mjs` and uses Express.js.
 npm run dev:server
 ```
 
-- The server will start (default: [http://localhost:3001](http://localhost:3001)).
+- The server will start (default: [http://localhost:3001](http://localhost:8080)).
 
 ### 2. Start the Frontend (React + Vite)
 
@@ -118,7 +118,6 @@ See `src/api/contactsRouter.mjs` for details.
 
 ## Customization
 
-- Update dummy data in `src/data/dummyData.js` as needed.
 - Adjust API base URL in `src/config/api.js` if your backend runs on a different port.
 - Add or modify React components in `src/components/`.
 
@@ -140,7 +139,7 @@ This project is for educational purposes. You may use, modify, and distribute as
 
 ## Author
 
-- Your Name Here
+- Rizwan Suvo
 
 ---
 
