@@ -1,6 +1,8 @@
 // API Configuration
+const isProd = import.meta.env.PROD;
+
 const API_CONFIG = {
-  baseURL: 'http://localhost:8080/api',
+  baseURL: isProd ? '/api' : 'http://localhost:8080/api',
   endpoints: {
     contacts: '/contacts',
     contact: (id) => `/contacts/${id}`,
