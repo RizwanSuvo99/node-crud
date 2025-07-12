@@ -20,3 +20,6 @@ app.use('*', (req, res) => {
 app.listen(PORT, () => {
   console.log(`API server running on http://localhost:${PORT}`);
 });
+
+// This file is now only used for local development.
+// The API is handled by /api/contacts.js and /api/index.js for Vercel deployment.
